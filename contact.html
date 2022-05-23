@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -80,4 +81,88 @@
 </body>
     
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <!--styling-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="shortcut icon" href="assets/favicon.ico">
+    </head>
+<body>
+  <header class="head-bar">
+    <div class="name-plate">
+        <img class="logo" src="assets/logo.png" alt="kennys logo">
+    <h1 class="head-name" >Kenneth Jaindl</h1>
+    </div>
+    <nav>
+        <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a href="index.html" role="menuitem" class="navigation-list__item ">Home</a>
+            </li>
+            <li role="presentation">
+              <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+            </li>
+            <li role="presentation">
+              <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+            </li>
+            <li role="presentation">
+              <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+            </li>
+          </ul>
+    </nav>
+</header>
+<main class="main-container">
+  <!--later I'd like to add my "sticky-note" app in for leaving short msgs and either ditch the form, or just use it as the input for the sticky notes-->
+<button type="button" class="sticky-note-button">leave a sticky note!</button>
+  <div class="glass">
+    <form action="" method="post" id="contact-form">
+      <label class="standard-label" for="contact-email">*E-mail: </label>
+      <input type="email" placeholder="enter here" id="contact-email" required>
+  
+      <label class="standard-label" for="contact-telephone">Telephone: </label>
+      <input type="tel" id="contact-telephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="000-000-0000">
+  
+      <label class="standard-label" for="contact-message">*Message: </label>
+      <textarea id="contact-message" placeholder="Please enter message under 240 characters" maxlength="240" required></textarea>
+  
+      <input type="submit"  value="Send message">
+  </form>
+</div>
+</main>
+<footer class="footer">
+  <div class="footer-plate">
+        Kenneth Jaindl<br>
+        35th Ave. NW <br>
+        Naples, FL<br>
+        USA<br>
+  </div>        
+  <div class="socials">
+      <h2>Find me on</h2>
+
+      <!-- Will make clickable in JS  -->
+      <ul class="social-bar">
+          <input id="github-icon" type="image"  src="assets/github.svg" role="menuitem" alt="link to kennys github"></input>
+          <input id="linked-in-icon" type="image" src="assets/linkedIn.svg"  role="menuitem" alt="link to kennys linked in"></input>
+      </ul>    
+  </div>
+  <div class="c2action-wrap">
+      Tel: <a class="call-to-action" href="tel:+18596403545">(859)-640-3545</a><br>
+      <a class="call-to-action" href="mailto:kenjaindl32@gmail.com">kenjaindl32@gmail.com</a><br>
+      <a class="call-to-action" href="mailto:kenjaindl32@gmail.com">Contact me</a>
+</div>
+</footer>
+<script src="js/tota11y.min.js"></script>
+</body>
+    
+
+>>>>>>> 2ec8f3d6674540dae891ff359462167c96fc8cab
 </html>
