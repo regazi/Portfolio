@@ -196,7 +196,6 @@ input[type=tel]:hover,
 border:1px solid rgba(255, 0, 0, 0.275);
 border-radius: 3px;
 }
-
 #contact-message{
     resize:none;
     border: none;
@@ -209,6 +208,12 @@ border-radius: 3px;
 table{
     width: 50vw;
 }
+.about-list{
+  list-style:none;
+  border: 1px solid rgba(101, 95, 95, 0.334);
+  padding: 10px;
+  background: var(--secondary-color);
+}
 #skill-table-head{
     text-align: center;
     text-decoration: underline;
@@ -216,100 +221,42 @@ table{
 .table-el{
     text-align: center;
 }
-.sticky-note-button,
 .button{
-    font-weight: 900;
+  margin-left: 18%;
+    font-weight: 600;
     border: none;
     padding: 4px;
-    background: linear-gradient(45deg, #f6ff002e, #ffff008a, #95ff0012);
+    background: #03fccf;
     cursor: pointer;
-    border-radius: 3px;
-}
-.sticky-note-button{
-position:absolute;
-    right: 0;
-    top: 12vh;
+    border-radius: 9px;
 }
 .button:hover,
-.sticky-note-button:hover,
-.sticky-note-button:focus{
+.button:focus{
     padding: 6px;
     box-shadow: var(--button-shadow)
 }
-
-
-
-
-
-
-
-@keyframes color-change {
-  0% {
-    fill: #ff0000;
-  }
-  50% {
-    fill: #ffffff;
-  }
-  100% {
-    fill: #002aff;
-  }
-}
-
-@keyframes sun-move {
-from{
-  scale: 2;
-}
-
-to{
- scale: 4;
-}
-
-}
-
-  @keyframes cloud-move {
-      from {
-        transform: translate(0, 50px);
-      }
-      to {
-        transform: translate(200px, 50px);
-      }
-    }
-@keyframes scale{
- from{
-   scale: 1;
- }
- to{
-   scale: 4;
- }
-  }
-
-
-.sun {
-  animation: 4s scale infinite alternate linear;
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-.building{
-animation: 4s color-change infinite alternate linear;
-}
+/* work.html */
 /* fallback */
+.pg-title{
+  text-align: center;
+}
 .grid__item {
     display: inline-block;
     width: 33%;
+    border: 1px solid rgba(101, 95, 95, 0.334);
+    padding: 10px;
+    background: var(--secondary-color);
    }
 
 @supports (display: grid) {
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr;
     justify-items: center;
   }
 .grid__item{
   background-color: lightgray;
-   width: auto;
+   width: 100%;
    min-height: auto;
    margin: 0;
    
@@ -340,6 +287,7 @@ header{
 }
 .glass{
     margin-top: 10vh;
+    padding: 20px;
 }
 .grid {  
     grid-template-columns: 1fr;
