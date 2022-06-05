@@ -369,6 +369,7 @@ header{
 
   logo{
           aspect-ratio: 1 / 1;
+          max-height: auto;
  }
 
  @media all and (min-width: 500px) and (max-width: 750px){
@@ -382,6 +383,7 @@ header{
    }
 .logo{
         aspect-ratio: 1 / 1;
+        max-height: auto;
    
  }
  @media all and (max-width: 750px) {
