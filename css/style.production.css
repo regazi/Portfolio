@@ -99,7 +99,7 @@ footer{
   
 }
 .logo{
-   width: 8vw;
+   width: 5%;
    aspect-ratio: 1 / 1;
    margin: 1vh 1vw;
    border-radius: 45px;
@@ -136,7 +136,7 @@ margin:1vw;
 text-decoration: none;
 padding: 2px;
 border-radius: 9px;
-webkit-transition:200ms ease;
+-webkit-transition:200ms ease;
 -o-transition:200ms ease;
 transition:200ms ease;
 
@@ -365,11 +365,11 @@ header{
    -ms-grid-columns: 1fr;  
    grid-template-columns: 1fr;
 }
-
-  logo{
+}
+.logo{
           aspect-ratio: 1 / 1;
-          width: 14%
- }
+          width: 14%;
+   }
 
  @media all and (min-width: 500px) and (max-width: 750px){
    .glass{
@@ -380,11 +380,7 @@ header{
      grid-template-columns: 1fr 1fr;
      grid-gap: 10px;
    }
-.logo{
-        aspect-ratio: 1 / 1;
-        max-height: auto;
-   
- }
+}
  @media all and (max-width: 750px) {
    .grid {
      grid-gap: 10px;
@@ -400,4 +396,4 @@ header{
  .logo{
      width: 5%;
    }
-
+ 
