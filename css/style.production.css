@@ -101,6 +101,7 @@ footer{
 .logo{
    height: 8vh;
    width: 8vw;
+   aspect-ratio: 1 / 1;
    margin: 1vh 1vw;
    border-radius: 45px;
    -webkit-box-flex:0;
@@ -366,7 +367,8 @@ header{
    grid-template-columns: 1fr;
 }
 
-  
+  logo{
+          aspect-ratio: 1 / 1;
  }
 
  @media all and (min-width: 500px) and (max-width: 750px){
@@ -378,7 +380,8 @@ header{
      grid-template-columns: 1fr 1fr;
      grid-gap: 10px;
    }
-
+.logo{
+        aspect-ratio: 1 / 1;
    
  }
  @media all and (max-width: 750px) {
