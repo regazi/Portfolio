@@ -145,9 +145,6 @@ transition:200ms ease;
 padding: 4px;
 -webkit-box-shadow: 6px 6px 10px rgba(39, 37, 37, 0.568);
        box-shadow: 6px 6px 10px rgba(39, 37, 37, 0.568);
--webkit-transition:200ms ease;
--o-transition:200ms ease;
-transition:200ms ease;
 }
 .navigation-list__item:focus{
 padding: 4px;
