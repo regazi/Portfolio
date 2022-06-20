@@ -111,13 +111,8 @@ footer{
   
 }
 .logo{
-<<<<<<< HEAD
-   width: 5%;
-   aspect-ratio: 1 / 1;
-=======
    max-height: 8vh;
    max-width: 8vw;
->>>>>>> main
    margin: 1vh 1vw;
    
    border-radius: 45px;
